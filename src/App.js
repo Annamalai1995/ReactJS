@@ -1,8 +1,13 @@
+import Normal, { Normal1, Normal2 } from "./Components";
+import { Custom } from "./CssComponents";
 
 function App() {
   return (
   <>
-  <h2>Welcome to All members</h2>
+  <Custom/>
+  {/* <Normal/>
+  <Normal1/>
+  <Normal2/> */}
   </>
   );
 }
